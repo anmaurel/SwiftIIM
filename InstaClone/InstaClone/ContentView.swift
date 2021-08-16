@@ -9,22 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView {
-            HStack(spacing: 50) {
-                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-                VStack(alignment: HorizontalAlignment.center,spacing: 50) {
-                    Text("Placeholder trt et e tet")
-                        .padding()
-                    Text("Hello, world!")
-                        .padding()
-                }
-            }
-        }
+        HeaderView(posts: 75, followers: 7500, following: 60)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ScrollView {
+            ContentView()
+        }
     }
 }
