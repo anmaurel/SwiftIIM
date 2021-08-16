@@ -37,7 +37,7 @@ struct HeaderView: View {
                             .fontWeight(.light)
                     }
                     VStack(alignment: .center, spacing: 2) {
-                        Text(String(followers))
+                        Text("\(followers)")
                             .font(.system(size: 14))
                             .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         Text("Followers")
