@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D02F5C5526CBDD0C006D0FD7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02F5C5426CBDD0C006D0FD7 /* Post.swift */; };
+		D02F5C5726CBF048006D0FD7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02F5C5626CBF048006D0FD7 /* Game.swift */; };
+		D02F5C5926CBF1B3006D0FD7 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02F5C5826CBF1B3006D0FD7 /* GameView.swift */; };
 		D0451BD726CA6DF90060F57C /* InstaCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0451BD626CA6DF90060F57C /* InstaCloneApp.swift */; };
 		D0451BD926CA6DF90060F57C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0451BD826CA6DF90060F57C /* ContentView.swift */; };
 		D0451BDB26CA6DFB0060F57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0451BDA26CA6DFB0060F57C /* Assets.xcassets */; };
 		D0451BDE26CA6DFB0060F57C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0451BDD26CA6DFB0060F57C /* Preview Assets.xcassets */; };
+		D06522EB26CBD791009AF5AA /* Test3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06522EA26CBD791009AF5AA /* Test3View.swift */; };
+		D06522ED26CBDC24009AF5AA /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06522EC26CBDC24009AF5AA /* FakeData.swift */; };
 		D0659CFE26CAA44B00C15560 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D0659CFD26CAA44B00C15560 /* Kingfisher */; };
 		D0659D0026CAAEFB00C15560 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0659CFF26CAAEFB00C15560 /* HeaderView.swift */; };
 		D0BC898D26CB9A6B00CDE58E /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BC898C26CB9A6B00CDE58E /* TestView.swift */; };
@@ -20,12 +25,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D02F5C5426CBDD0C006D0FD7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D02F5C5626CBF048006D0FD7 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		D02F5C5826CBF1B3006D0FD7 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		D0451BD326CA6DF90060F57C /* InstaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0451BD626CA6DF90060F57C /* InstaCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCloneApp.swift; sourceTree = "<group>"; };
 		D0451BD826CA6DF90060F57C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0451BDA26CA6DFB0060F57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0451BDD26CA6DFB0060F57C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0451BDF26CA6DFB0060F57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06522EA26CBD791009AF5AA /* Test3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test3View.swift; sourceTree = "<group>"; };
+		D06522EC26CBDC24009AF5AA /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
 		D0659CFF26CAAEFB00C15560 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		D0BC898C26CB9A6B00CDE58E /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		D0BC898E26CB9E8900CDE58E /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
@@ -64,16 +74,21 @@
 		D0451BD526CA6DF90060F57C /* InstaClone */ = {
 			isa = PBXGroup;
 			children = (
+				D06522EA26CBD791009AF5AA /* Test3View.swift */,
 				D0451BD626CA6DF90060F57C /* InstaCloneApp.swift */,
 				D0451BD826CA6DF90060F57C /* ContentView.swift */,
+				D06522EC26CBDC24009AF5AA /* FakeData.swift */,
+				D02F5C5426CBDD0C006D0FD7 /* Post.swift */,
 				D0451BDA26CA6DFB0060F57C /* Assets.xcassets */,
 				D0451BDF26CA6DFB0060F57C /* Info.plist */,
-				D0451BDC26CA6DFB0060F57C /* Preview Content */,
 				D0659CFF26CAAEFB00C15560 /* HeaderView.swift */,
 				D0BC898C26CB9A6B00CDE58E /* TestView.swift */,
 				D0BC899026CBADDF00CDE58E /* Test2View.swift */,
 				D0BC899226CBB1C800CDE58E /* PostView.swift */,
+				D02F5C5626CBF048006D0FD7 /* Game.swift */,
+				D02F5C5826CBF1B3006D0FD7 /* GameView.swift */,
 				D0BC898E26CB9E8900CDE58E /* LikeButton.swift */,
+				D0451BDC26CA6DFB0060F57C /* Preview Content */,
 			);
 			path = InstaClone;
 			sourceTree = "<group>";
@@ -161,13 +176,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06522ED26CBDC24009AF5AA /* FakeData.swift in Sources */,
+				D06522EB26CBD791009AF5AA /* Test3View.swift in Sources */,
 				D0BC899326CBB1C800CDE58E /* PostView.swift in Sources */,
 				D0BC898D26CB9A6B00CDE58E /* TestView.swift in Sources */,
 				D0451BD926CA6DF90060F57C /* ContentView.swift in Sources */,
 				D0659D0026CAAEFB00C15560 /* HeaderView.swift in Sources */,
+				D02F5C5726CBF048006D0FD7 /* Game.swift in Sources */,
 				D0BC899126CBADDF00CDE58E /* Test2View.swift in Sources */,
 				D0BC898F26CB9E8900CDE58E /* LikeButton.swift in Sources */,
 				D0451BD726CA6DF90060F57C /* InstaCloneApp.swift in Sources */,
+				D02F5C5926CBF1B3006D0FD7 /* GameView.swift in Sources */,
+				D02F5C5526CBDD0C006D0FD7 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
