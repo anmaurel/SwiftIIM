@@ -10,6 +10,7 @@
 		D02F5C5526CBDD0C006D0FD7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02F5C5426CBDD0C006D0FD7 /* Post.swift */; };
 		D02F5C5726CBF048006D0FD7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02F5C5626CBF048006D0FD7 /* Game.swift */; };
 		D02F5C5926CBF1B3006D0FD7 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02F5C5826CBF1B3006D0FD7 /* GameView.swift */; };
+		D02F5C5B26CC0143006D0FD7 /* Test4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02F5C5A26CC0143006D0FD7 /* Test4View.swift */; };
 		D0451BD726CA6DF90060F57C /* InstaCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0451BD626CA6DF90060F57C /* InstaCloneApp.swift */; };
 		D0451BD926CA6DF90060F57C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0451BD826CA6DF90060F57C /* ContentView.swift */; };
 		D0451BDB26CA6DFB0060F57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0451BDA26CA6DFB0060F57C /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		D02F5C5426CBDD0C006D0FD7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D02F5C5626CBF048006D0FD7 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D02F5C5826CBF1B3006D0FD7 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		D02F5C5A26CC0143006D0FD7 /* Test4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test4View.swift; sourceTree = "<group>"; };
 		D0451BD326CA6DF90060F57C /* InstaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0451BD626CA6DF90060F57C /* InstaCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCloneApp.swift; sourceTree = "<group>"; };
 		D0451BD826CA6DF90060F57C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				D06522EA26CBD791009AF5AA /* Test3View.swift */,
 				D0451BD626CA6DF90060F57C /* InstaCloneApp.swift */,
 				D0451BD826CA6DF90060F57C /* ContentView.swift */,
+				D02F5C5A26CC0143006D0FD7 /* Test4View.swift */,
 				D06522EC26CBDC24009AF5AA /* FakeData.swift */,
 				D02F5C5426CBDD0C006D0FD7 /* Post.swift */,
 				D0451BDA26CA6DFB0060F57C /* Assets.xcassets */,
@@ -184,6 +187,7 @@
 				D0659D0026CAAEFB00C15560 /* HeaderView.swift in Sources */,
 				D02F5C5726CBF048006D0FD7 /* Game.swift in Sources */,
 				D0BC899126CBADDF00CDE58E /* Test2View.swift in Sources */,
+				D02F5C5B26CC0143006D0FD7 /* Test4View.swift in Sources */,
 				D0BC898F26CB9E8900CDE58E /* LikeButton.swift in Sources */,
 				D0451BD726CA6DF90060F57C /* InstaCloneApp.swift in Sources */,
 				D02F5C5926CBF1B3006D0FD7 /* GameView.swift in Sources */,
