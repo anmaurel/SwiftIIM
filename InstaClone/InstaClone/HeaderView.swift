@@ -13,6 +13,9 @@ struct HeaderView: View {
     let posts: Int
     let followers: Int
     let following: Int
+    let title: String
+    let job: String
+    let description: String
     
     var body: some View {
         VStack {
@@ -55,16 +58,14 @@ struct HeaderView: View {
                 }
             }
             VStack(alignment: .leading) {
-                Text("Quentin")
+                Text("\(title)")
                     .font(.system(size: 13))
                     .fontWeight(.bold)
-                Text("Entrepreneur")
+                Text("\(job)")
                     .font(.system(size: 13))
                     .fontWeight(.light)
                     .foregroundColor(.gray)
-                Text("Apprends à coder et deviens libre 🌴")
-                    .font(.system(size: 13))
-                Text("Développeur iOS 👨‍💻")
+                Text("\(description)")
                     .font(.system(size: 13))
                 Text("Formateur et Youtubeur +80k 💻... ")
                     .font(.system(size: 13))
@@ -84,7 +85,14 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView(posts: 75, followers: 7500, following: 60)
+        HeaderView(
+            posts: 75,
+            followers: 7500,
+            following: 60,
+            title: "Quentin",
+            job: "Entrepreneur",
+            description: "Apprends à coder et deviens libre 🌴 \nDéveloppeur iOS 👨‍💻"
+        )
             .previewLayout(.sizeThatFits)
     }
 }
