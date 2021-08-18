@@ -15,6 +15,9 @@
 		D0451BD926CA6DF90060F57C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0451BD826CA6DF90060F57C /* ContentView.swift */; };
 		D0451BDB26CA6DFB0060F57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0451BDA26CA6DFB0060F57C /* Assets.xcassets */; };
 		D0451BDE26CA6DFB0060F57C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0451BDD26CA6DFB0060F57C /* Preview Assets.xcassets */; };
+		D061789626CCEBFA007D0D82 /* NewItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061789526CCEBFA007D0D82 /* NewItemScreen.swift */; };
+		D061789826CCF517007D0D82 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061789726CCF517007D0D82 /* TaskDetailView.swift */; };
+		D061789A26CCFA31007D0D82 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061789926CCFA31007D0D82 /* MainTabView.swift */; };
 		D06522EB26CBD791009AF5AA /* Test3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06522EA26CBD791009AF5AA /* Test3View.swift */; };
 		D06522ED26CBDC24009AF5AA /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06522EC26CBDC24009AF5AA /* FakeData.swift */; };
 		D0659CFE26CAA44B00C15560 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D0659CFD26CAA44B00C15560 /* Kingfisher */; };
@@ -36,6 +39,9 @@
 		D0451BDA26CA6DFB0060F57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0451BDD26CA6DFB0060F57C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0451BDF26CA6DFB0060F57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D061789526CCEBFA007D0D82 /* NewItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemScreen.swift; sourceTree = "<group>"; };
+		D061789726CCF517007D0D82 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		D061789926CCFA31007D0D82 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		D06522EA26CBD791009AF5AA /* Test3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test3View.swift; sourceTree = "<group>"; };
 		D06522EC26CBDC24009AF5AA /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
 		D0659CFF26CAAEFB00C15560 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 		D0451BCA26CA6DF90060F57C = {
 			isa = PBXGroup;
 			children = (
+				D061789926CCFA31007D0D82 /* MainTabView.swift */,
 				D0451BD526CA6DF90060F57C /* InstaClone */,
 				D0451BD426CA6DF90060F57C /* Products */,
 			);
@@ -80,6 +87,8 @@
 				D0451BD626CA6DF90060F57C /* InstaCloneApp.swift */,
 				D0451BD826CA6DF90060F57C /* ContentView.swift */,
 				D02F5C5A26CC0143006D0FD7 /* Test4View.swift */,
+				D061789726CCF517007D0D82 /* TaskDetailView.swift */,
+				D061789526CCEBFA007D0D82 /* NewItemScreen.swift */,
 				D06522EC26CBDC24009AF5AA /* FakeData.swift */,
 				D02F5C5426CBDD0C006D0FD7 /* Post.swift */,
 				D0451BDA26CA6DFB0060F57C /* Assets.xcassets */,
@@ -182,6 +191,8 @@
 				D06522ED26CBDC24009AF5AA /* FakeData.swift in Sources */,
 				D06522EB26CBD791009AF5AA /* Test3View.swift in Sources */,
 				D0BC899326CBB1C800CDE58E /* PostView.swift in Sources */,
+				D061789A26CCFA31007D0D82 /* MainTabView.swift in Sources */,
+				D061789626CCEBFA007D0D82 /* NewItemScreen.swift in Sources */,
 				D0BC898D26CB9A6B00CDE58E /* TestView.swift in Sources */,
 				D0451BD926CA6DF90060F57C /* ContentView.swift in Sources */,
 				D0659D0026CAAEFB00C15560 /* HeaderView.swift in Sources */,
@@ -192,6 +203,7 @@
 				D0451BD726CA6DF90060F57C /* InstaCloneApp.swift in Sources */,
 				D02F5C5926CBF1B3006D0FD7 /* GameView.swift in Sources */,
 				D02F5C5526CBDD0C006D0FD7 /* Post.swift in Sources */,
+				D061789826CCF517007D0D82 /* TaskDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

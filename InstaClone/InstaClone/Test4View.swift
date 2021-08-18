@@ -9,31 +9,38 @@ import SwiftUI
 
 struct Test4View: View {
     
-    var items = ["Ending project", "Sending folder"]
+    @State var items = ["Ending project", "Sending folder"]
     
     @State private var newTaskScreenIsPresented = false
     
     var body: some View {
-        ZStack(alignment: .bottomTrailing) {
-            List(items, id: \.self) { item in
-                Text(item)
-            }
-            Button(action: {
-                newTaskScreenIsPresented = true
-            }, label: {
-                ZStack {
-                    Circle()
-                        .frame(width: 30)
-                        .shadow(radius: 2)
-                    Image(systemName: "plus")
-                        .foregroundColor(.white)
-                        .font(.system(size: 20, weight: .bold))
+        NavigationView {
+            ZStack(alignment: .bottomTrailing) {
+                List(items, id: \.self) { item in
+                    NavigationLink(
+                        destination: TaskDetailView(task: item),
+                        label: {
+                            Text(item)
+                        })
                 }
-            })
-            .padding(14)
-            .sheet(isPresented: $newTaskScreenIsPresented, content: {
-                Text("oke")
-            })
+                Button(action: {
+                    newTaskScreenIsPresented = true
+                }, label: {
+                    ZStack {
+                        Circle()
+                            .frame(width: 30, height: 30)
+                            .shadow(radius: 2)
+                        Image(systemName: "plus")
+                            .foregroundColor(.white)
+                            .font(.system(size: 20, weight: .bold))
+                    }
+                })
+                .padding(14)
+                .sheet(isPresented: $newTaskScreenIsPresented, content: {
+                    NewItemScreen(taskList: $items)
+                })
+            }
+            .navigationTitle("Tasks")
         }
     }
 }
