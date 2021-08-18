@@ -17,7 +17,7 @@ struct MovieView: View {
             KFImage(movie.posterUrl)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 100, height: 150)
+                .frame(width: 100, height: 140)
                 .clipped()
                 .cornerRadius(8.0)
             VStack {
@@ -28,8 +28,9 @@ struct MovieView: View {
                         .foregroundColor(.white)
                     Spacer()
                     RatingView(rating: 8.4)
-                        .frame(width: 50, height: 50)
+                        .frame(width: 40, height: 40)
                 }
+                .padding([.bottom], 12)
                 Text(movie.description)
                     .fontWeight(.light)
                     .font(.system(size: 14))
@@ -38,7 +39,6 @@ struct MovieView: View {
             }
             .padding([.top, .bottom], 10)
             .padding([.leading, .trailing], 8)
-//            .frame(width: 45, height: 45)
         }
         .padding(10)
     }
@@ -50,7 +50,7 @@ struct MovieView_Previews: PreviewProvider {
         posterUrl: URL(string: "https://images.pexels.com/photos/5560908/pexels-photo-5560908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"),
         title: "Fight Club",
         description: "Excogitatum nequi oculis est quoniam colligati nequi eos quos capite corpus cautionibus vel purgaverint in ut missos ad ut validum corpus dominantur famulos est paucis alienis ad famulos torpescit ut satis percontatum quem eos quoniam visa torpescit capite satis est satis ad vel omnis capite medendi professio quoniam professio apud.",
-        ratin: 8.9)
+        rating: 8.9)
     
     static var previews: some View {
         MovieView(movie: previewMovie)

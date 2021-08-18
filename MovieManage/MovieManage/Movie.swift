@@ -7,9 +7,16 @@
 
 import SwiftUI
 
-struct Movie {
+class Movie: Decodable {
     let posterUrl: URL?
     let title: String
     let description: String
-    let ratin: Float
+    let rating: Float
+    
+    init(posterUrl: URL?, title: String, description: String, rating: Float) {
+        self.posterUrl = posterUrl
+        self.title = title
+        self.description = description
+        self.rating = rating
+    }
 }
