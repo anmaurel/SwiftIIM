@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-class Movie: Decodable {
+class Movie: Codable, Identifiable {
+    let id = UUID()
     let posterUrl: URL?
     let title: String
     let description: String
